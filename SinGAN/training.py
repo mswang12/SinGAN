@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from SinGAN.imresize import imresize
 
 def train(opt,Gs,Zs,reals,NoiseAmp):
+    print('Training!!!')
     real_ = functions.read_image(opt)
     in_s = 0
     scale_num = 0
